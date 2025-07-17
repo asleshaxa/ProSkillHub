@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll - ProSkill Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body style="color: black;">
+    <header class="header">
+        <h1>ProSkill Hub</h1>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="enroll.html" class="active">Enroll</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="enroll">
+        <h2 style="color: brown;">Enroll in a Course</h2>
+        <form action="#" method="post">
+            <label style="color: orangered;"   for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br><br>
+            
+            <label style="color: orangered;" for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br><br>
+            
+            <label style="color: orangered;" for="course">Select Course:</label>
+            <select id="course" name="course" required><br><br><br>
+                <option value="intro_programming">Introduction to Programming</option>
+                <option value="business_strategies">Advanced Business Strategies</option>
+                <option value="creative_writing">Creative Writing for Beginners</option>
+                <option value="web_development">Web Development Masterclass</option>
+            </select>
+            
+            <button type="submit">Enroll Now</button><br><br><br>
+        </form>
+    </section>
+
+    <footer class="footer" style="padding: 4px;">
+        <p>&copy; 2024 ProSkill Hub | Start your learning journey today.</p>
+    </footer>
+</body>
+</html>
